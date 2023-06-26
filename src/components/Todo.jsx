@@ -123,7 +123,7 @@ function Todo() {
 
 
 
-      {toDo && toDo.length ? "" : "no Task"}
+      {toDo && toDo.length ? "" : "No Task"}
       {toDo &&
         toDo
           .sort((a, b) => {
